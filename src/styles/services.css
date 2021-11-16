@@ -1,0 +1,30 @@
+.services-wrapper {
+    position: absolute;
+    width: 100%;
+    bottom: -200px
+}
+
+.services-wrapper .slick-track{
+    display: flex;
+}
+
+.services-wrapper .services-item img {
+    width: 250px;
+    height: auto;
+}
+
+.services-wrapper .services-item {
+    width: 270px !important;
+    height: 270px;
+    background: #fff;
+    border-radius: 1.5rem;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 20px 0 #0000002b;
+}
+
+.services-wrapper div.slick-slide {
+    margin: 0 0.7rem
+;
+}

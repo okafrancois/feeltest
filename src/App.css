@@ -2,11 +2,16 @@
   font-family: Roboto, sans-serif;
   position: relative;
   color: #212121;
+  overflow-x: hidden;
 }
 
 a, a:hover{
   text-decoration: none;
   color: inherit;
+}
+header{
+  position: relative;
+  z-index: 999;
 }
 
 header .logo {
@@ -19,13 +24,9 @@ header .logo {
   align-items: center;
 }
 
-.logo img {
+img {
   width: 100%;
   height: auto;
-}
-
-.home-container{
-  min-height: calc(100vh - 60px);
 }
 
 header {
@@ -68,12 +69,14 @@ main.home-container h2 {
 
 .services {
   background: #212121;
-  min-height: 135px;
-  padding: 60px 0.7rem 0.7rem;
+  min-height: 200px;
+  padding: 0.7rem;
+  position: relative;
 }
 
 .services h2 {
   color: #fff;
+  margin-top: 5rem;
 }
 
 .article{
@@ -81,7 +84,7 @@ main.home-container h2 {
 }
 
 .services + .article {
-  padding-top: 225px;
+  padding-top: 210px;
 }
 
 .article .description {
